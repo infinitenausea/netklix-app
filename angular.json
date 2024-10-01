@@ -99,6 +99,14 @@
             ],
             "scripts": []
           }
+        },
+        "deploy": {
+          "builder": "angular-cli-ghpages:deploy",
+          "options": {
+            "buildTarget": "netklix-app:build:production",
+            "repo": "https://github.com/infinitenausea/netklix-app.git",
+            "baseHref": "/netklix-app/"
+          }
         }
       }
     }
